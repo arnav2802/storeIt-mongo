@@ -17,7 +17,8 @@ import { Input } from "@/components/ui/input"
 import { useState } from "react"
 import Image from "next/image";
 import Link from "next/link";
-import { createAccount, signInUser } from "@/lib/actions/user.actions";
+import { createAccount, signInUser } from "@/lib/actions/user.action";
+
 import OtpModal from "@/components/OTPModal";
 
 
